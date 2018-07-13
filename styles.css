@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body, div, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* header
+*/
+.element0{
+  background-color: rgba(237, 214, 247, 1);
+  color: white;
+  width: 1280px;/* 変更しない */
+  height: 50px;/* 変更しない */
+  padding: 13px 10px 10px 10px;/* 変更しない */
+}
+
+/*
+* main & sidebar (wrapper)
+*/
+.element1{
+  background-color: rgb(245, 245, 242);
+  width: 1000px;/* 変更しない */
+  height: 530px;/* 変更しない */
+  padding: 30px 20px 10px 50px;/* 変更しない */
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.element1 p {
+  margin: auto;
+  }
+
+.element2{
+  background-color: rgb(240, 234, 236);
+  color: white;
+  width: 280px;/* 変更しない */
+  height: 530px;/* 変更しない */
+  padding: 30px 10px 10px 10px;/* 変更しない */
+  position: absolute;
+  left: 1000px;
+  box-sizing: border-box;
+  float: right;
+}
+
+/*
+* footer
+*/
+.element3{
+  background-color: rgba(177, 175, 179, 1);
+  color: white;
+  width: 1280px;/* 変更しない */
+  height: 150px;/* 変更しない */
+  clear: both;
+  margin-top: 3px;
+  text-align: center;
+  padding: 70px 10px 20px 10px;/* 変更しない */
+  display: block;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: 'FOLLOW US ON SNS!';
+    display: block;
+    clear: both;
+}
